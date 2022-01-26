@@ -1,0 +1,50 @@
+$black: #000;
+$pink: #cea293;
+$gold: #a57a26;
+
+$light: #efede1;
+$med: #e4e0d4;
+$dark: #686763;
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;500&display=swap');
+
+@font-face {
+    font-family: "England";
+    src: url("../fonts/england/EnglandSignature.woff") format("woff"), url("../fonts/england/EnglandSignature.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+} 
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: $dark;
+    background: $light;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+.full {
+    width: 100%;
+    float: left;
+}
+
+
+.sec-pad {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @include media-breakpoint-down(sm) {
+
+    }
+}
+
+.flex-height {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}

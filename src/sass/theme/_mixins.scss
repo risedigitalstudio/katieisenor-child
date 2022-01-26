@@ -1,0 +1,52 @@
+@mixin nav-items {
+    font-size: 16px;
+    @include media-breakpoint-down(md) {
+        font-size: 15px;
+    }
+}
+
+@mixin cap-light {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .6px;
+}
+
+.cap-light {
+    @include cap-light;
+}
+
+@mixin england {
+    font-family: 'England', sans-serif;
+    font-size: 4rem;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+
+.england {
+    @include england;
+}
+
+@mixin default-btn {
+    background-color: none;
+    padding: 9px 18px;
+    display: inline-block;
+    color: $pink;
+    transition: 0.2s all;
+    border: 2px solid $pink;
+    @include cap-light;
+    margin-top: 12px;
+    @media (max-width: 767px) {
+        padding: 6px 13px;
+        font-size: 18px;
+    }
+    &:hover {
+        color: $light;
+        text-decoration: none;
+        background-color: $pink;
+    }
+}
+
+.default-btn {
+    @include default-btn;
+}

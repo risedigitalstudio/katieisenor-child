@@ -1,0 +1,24 @@
+#wrapper-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+#main-nav {
+//    background-color: $pink !important;
+}
+
+#main-nav .navbar-brand {
+    img {
+        width: 130px;
+    }
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 13px;
+    padding-left: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .6px;
+    color: $light;
+}

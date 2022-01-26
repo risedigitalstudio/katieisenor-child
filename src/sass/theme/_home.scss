@@ -1,0 +1,35 @@
+.home-hero {
+    background-image: url(../img/ketch-harbour-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    .home-hero-inner {
+        padding-top: 320px;
+        padding-bottom: 240px;
+        color: $light;
+        text-align: center;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.35);
+    }
+    .home-hero-btn-wrap {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin: 35px auto 0;
+        a {
+            margin: 0 3px;
+            width: 150px;
+            font-weight: 500;
+        }
+    }
+}
+
+.home-intro-wrap {
+    width: 400px;
+    margin-left: 75px;
+}
