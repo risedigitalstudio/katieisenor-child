@@ -41,23 +41,9 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
             <div class="container">
 
                 <!-- Your site title as branding in the menu -->
-                <?php if ( ! has_custom_logo() ) { ?>
-
-                    <?php if ( is_front_page() && is_home() ) : ?>
-
-                        <h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
-
-                    <?php else : ?>
-
-                        <a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
-
-                    <?php endif; ?>
-
-                    <?php
-                } else {
-                    the_custom_logo();
-                }
-                ?>
+                <a href="<?php echo site_url();?>" class="navbar-brand custom-logo-link">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/img/katie-isenor-logo-white.png">
+                </a>
                 <!-- end custom logo -->
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">

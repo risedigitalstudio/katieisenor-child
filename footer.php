@@ -9,37 +9,52 @@
 
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
-
-$container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<div class="wrapper" id="wrapper-footer">
 
-	<div class="<?php echo esc_attr( $container ); ?>">
+<footer class="main-footer sec-pad">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 footer-cols" data-aos="fade-in">
+                <div class="footer-col first">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/img/katie-isenor-logo-white.png" class="ki-footer-logo">
+                </div>
+                <div class="footer-col">
+                   <p>Katie Isenor<br>Sales Representative</p>
+                    <p class="footer-contact">
+                        <i class="fa fa-map-marker"></i> Royal LePage Atlantic<br>7071 Bayers Road<br>Halifax, Nova Scotia, B3L 2C2
+                    </p>
+                </div>
+                <div class="footer-col">
+                   
+                    <a href="tel:+19029997653" class="footer-contact">
+                        <i class="fa fa-phone"></i> (902) 999-7653
+                    </a>
+                    <a href="mailto:katieisenor@royallepage.ca" class="footer-contact">
+                        <i class="fa fa-envelope"></i> katieisenor@royallepage.ca
+                    </a>
+                    <a href="https://www.instagram.com/katiesellshalifax/" target="_blank" class="footer-contact">
+                        <i class="fa fa-instagram"></i> @katiesellshalifax
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row footer-bottom-wrap" data-aos="fade-in">
+                    <div class="col-md-7">
+                        <?php wp_nav_menu(); ?>
+                    </div>
+                    <div class="col-md-5">
+                        <p class="copy">&copy; Copyright 2020. Website by <a href="https://risedigitalstudio.ca" class="rds" target="_blank">Rise Digital Studio</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
-		<div class="row">
-
-			<div class="col-md-12">
-
-				<footer class="site-footer" id="colophon">
-
-					<div class="site-info">
-
-						<?php understrap_site_info(); ?>
-
-					</div><!-- .site-info -->
-
-				</footer><!-- #colophon -->
-
-			</div><!--col end -->
-
-		</div><!-- row end -->
-
-	</div><!-- container end -->
-
-</div><!-- wrapper end -->
 
 </div><!-- #page we need this extra closing tag here -->
 

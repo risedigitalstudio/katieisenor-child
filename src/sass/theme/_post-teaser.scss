@@ -1,0 +1,38 @@
+.post-teaser-wrap-link {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: $med;
+    transition: 0.2s all;
+    &.pink {
+        background: $pink;
+        h3 {color: $light;}
+    }
+    &.gold {
+        background: $gold;
+        h3 {color: $light;}
+    }
+    &:hover {
+        text-decoration: none;
+        background: darken($med, 10%);
+        &.pink {
+            background: darken($pink, 10%);
+        }
+        &.gold {
+            background: darken($gold, 10%);
+        }
+    }
+}
+.teaser-title-wrap {
+    padding: 20px 25px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h3 {
+        text-align: center;
+        color: $dark;
+        font-weight: 300;
+    }
+}
+.teaser-img {}

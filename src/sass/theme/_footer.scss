@@ -1,0 +1,100 @@
+.main-footer {
+    background: $pink;
+}
+
+.footer-cols {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+    line-height: 23px;
+    color: #fff;
+}
+.footer-col {
+    width: 30%;
+    a, i {
+        color: #fff;
+    }
+    &.first {
+        width: 100%;
+    }
+    img.ki-footer-logo {
+        width: 210px;
+    }
+}
+.footer-contact {
+    width: 100%;
+    float: left;
+}
+
+.footer-bottom-wrap {
+    padding: 0;
+    border-top: 1px solid rgba(255,255,255,.42);
+    width: 100%;
+    margin: 30px 0 0 0;
+    font-size: 14px;
+}
+#menu-primary {
+    padding: 0;
+    list-style-type: none;
+    float: left;
+    margin-top: 20px;
+    li {
+        float: left;
+        margin-right: 20px;
+        a {
+            color: rgba(255,255,255,.5);
+            transition: 0.2s all;
+            &:hover {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.copy {
+    margin-top: 20px;
+    text-align: right;
+    color: rgba(255,255,255,.5);
+}
+
+.rds {
+    color: rgba(255,255,255,.8);
+    &:focus, &:active, &:visited {
+        color: rgba(255,255,255,.7);
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .footer-col img.orion-logo {
+        width: 110px;
+    }
+    .footer-contact {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-cols {
+        display: block;
+        .footer-col {
+            width: 100%;
+            display: block;
+            float: left;
+            margin: 0 0 30px 0;
+        }
+    }
+    .orion-col {
+        text-align: left;
+    }
+    #menu-primary li a {
+        font-size: 10px;
+    }
+    .copy {
+        float: left;
+        font-size: 10px;
+    }
+}

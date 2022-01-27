@@ -14978,14 +14978,15 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 body {
   font-family: "Alegreya Sans", sans-serif;
   font-size: 18px;
-  line-height: 25px;
-  color: #686763;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #000;
   background: #efede1;
   font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .full {
@@ -15030,6 +15031,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   letter-spacing: 0.6px;
   margin-top: 12px;
+  font-weight: 500;
 }
 @media (max-width: 767px) {
   .default-btn {
@@ -15047,40 +15049,70 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   width: 100%;
   z-index: 999;
+  transition: 0.2s all;
+}
+
+.current_page_item a {
+  border-bottom: 2px solid #cea293;
 }
 
 #main-nav .navbar-brand img {
   width: 130px;
+  transition: 0.2s all;
+}
+
+.navbar-expand-md .navbar-nav .nav-item {
+  padding-right: 13px;
+  padding-left: 13px;
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
-  padding-right: 13px;
-  padding-left: 13px;
+  padding: 0 0 0 0;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 0.6px;
   color: #efede1;
 }
+.navbar-expand-md .navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #cea293;
+}
+
+.solid {
+  background: #e4e0d4;
+}
+.solid #main-nav .navbar-brand img {
+  width: 90px;
+}
+.solid .navbar-expand-md .navbar-nav .nav-link {
+  color: #000;
+}
 
 .home-hero {
-  background-image: url(../img/ketch-harbour-bg.jpg);
+  background-image: url(../img/halifax-bg.jpg);
   background-size: cover;
-  background-position: center center;
+  background-position: left center;
+  background-attachment: fixed;
   position: relative;
 }
 .home-hero .home-hero-inner {
-  padding-top: 320px;
-  padding-bottom: 240px;
+  padding-top: 300px;
+  padding-bottom: 250px;
   color: #efede1;
   text-align: center;
+}
+.home-hero .home-hero-inner h1 {
+  font-size: 60px;
+}
+.home-hero .home-hero-inner h2 {
+  font-size: 40px;
 }
 .home-hero::before {
   content: "";
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .home-hero .home-hero-btn-wrap {
   display: flex;
@@ -15097,6 +15129,222 @@ h1, h2, h3, h4, h5, h6 {
 .home-intro-wrap {
   width: 400px;
   margin-left: 75px;
+}
+.home-intro-wrap h2 {
+  color: #a57a26;
+}
+
+.home-three-points {
+  background-image: url(../img/home-kitchen.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 520px;
+  position: relative;
+  margin-bottom: 220px;
+}
+
+.three-inner {
+  display: flex;
+  background: #e4e0d4;
+  justify-content: center;
+  max-width: 860px;
+  margin: 0 auto;
+  position: relative;
+  bottom: -310px;
+  padding: 45px 0;
+}
+.three-inner .one-third {
+  border-right: 1px solid #efede1;
+  padding: 0 30px;
+  text-align: center;
+}
+.three-inner .one-third h2 {
+  color: #a57a26;
+  font-size: 26px;
+}
+.three-inner .one-third:last-of-type {
+  border-right: none;
+}
+
+.home-blog h2 {
+  text-align: center;
+  font-family: "England", sans-serif;
+  font-size: 4rem;
+  margin-top: -20px;
+  margin-left: -10px;
+  margin-bottom: 45px;
+}
+.home-blog .default-btn {
+  display: block;
+  width: 110px;
+  margin: 45px auto 0;
+}
+
+.home-instagram {
+  background: #e4e0d4;
+}
+.home-instagram a {
+  text-decoration: none;
+  font-family: "England", sans-serif;
+  font-size: 4rem;
+  margin-top: -20px;
+  margin-left: -10px;
+  text-transform: lowercase;
+}
+.home-instagram a:hover {
+  text-decoration: none;
+  color: #a57a26;
+}
+.home-instagram h2 {
+  text-align: center;
+}
+
+.post-teaser-wrap-link {
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: #e4e0d4;
+  transition: 0.2s all;
+}
+.post-teaser-wrap-link.pink {
+  background: #cea293;
+}
+.post-teaser-wrap-link.pink h3 {
+  color: #efede1;
+}
+.post-teaser-wrap-link.gold {
+  background: #a57a26;
+}
+.post-teaser-wrap-link.gold h3 {
+  color: #efede1;
+}
+.post-teaser-wrap-link:hover {
+  text-decoration: none;
+  background: #d0c9b5;
+}
+.post-teaser-wrap-link:hover.pink {
+  background: #be8470;
+}
+.post-teaser-wrap-link:hover.gold {
+  background: #7c5b1c;
+}
+
+.teaser-title-wrap {
+  padding: 20px 25px;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.teaser-title-wrap h3 {
+  text-align: center;
+  color: #000;
+  font-weight: 300;
+}
+
+.main-footer {
+  background: #cea293;
+}
+
+.footer-cols {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 14px;
+  line-height: 23px;
+  color: #fff;
+}
+
+.footer-col {
+  width: 30%;
+}
+.footer-col a, .footer-col i {
+  color: #fff;
+}
+.footer-col.first {
+  width: 100%;
+}
+.footer-col img.ki-footer-logo {
+  width: 210px;
+}
+
+.footer-contact {
+  width: 100%;
+  float: left;
+}
+
+.footer-bottom-wrap {
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.42);
+  width: 100%;
+  margin: 30px 0 0 0;
+  font-size: 14px;
+}
+
+#menu-primary {
+  padding: 0;
+  list-style-type: none;
+  float: left;
+  margin-top: 20px;
+}
+#menu-primary li {
+  float: left;
+  margin-right: 20px;
+}
+#menu-primary li a {
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.2s all;
+}
+#menu-primary li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copy {
+  margin-top: 20px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.rds {
+  color: rgba(255, 255, 255, 0.8);
+}
+.rds:focus, .rds:active, .rds:visited {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 992px) {
+  .footer-col img.orion-logo {
+    width: 110px;
+  }
+
+  .footer-contact {
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .footer-cols {
+    display: block;
+  }
+  .footer-cols .footer-col {
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0 0 30px 0;
+  }
+
+  .orion-col {
+    text-align: left;
+  }
+
+  #menu-primary li a {
+    font-size: 10px;
+  }
+
+  .copy {
+    float: left;
+    font-size: 10px;
+  }
 }
 
 /*# sourceMappingURL=child-theme.css.map */

@@ -36,6 +36,7 @@
     border: 2px solid $pink;
     @include cap-light;
     margin-top: 12px;
+    font-weight: 500;
     @media (max-width: 767px) {
         padding: 6px 13px;
         font-size: 18px;

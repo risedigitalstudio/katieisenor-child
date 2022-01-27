@@ -1,20 +1,27 @@
 .home-hero {
-    background-image: url(../img/ketch-harbour-bg.jpg);
+    background-image: url(../img/halifax-bg.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: left center; 
+    background-attachment: fixed;
     position: relative;
     .home-hero-inner {
-        padding-top: 320px;
-        padding-bottom: 240px;
+        padding-top: 300px;
+        padding-bottom: 250px;
         color: $light;
         text-align: center;
+        h1 {
+            font-size: 60px;
+        }
+        h2 {
+            font-size: 40px;
+        }
     }
     &::before {
         content: '';
         position: absolute;
         height: 100%;
         width: 100%;
-        background-color: rgba(0,0,0,0.35);
+        background-color: rgba(0,0,0,0.5);
     }
     .home-hero-btn-wrap {
         display: flex;
@@ -32,4 +39,69 @@
 .home-intro-wrap {
     width: 400px;
     margin-left: 75px;
+    h2 {
+        color: $gold;
+    }
+}
+
+.home-three-points {
+    background-image: url(../img/home-kitchen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 520px;
+    position: relative;
+    margin-bottom: 220px;
+}
+
+.three-inner {
+    display: flex;
+    background: $med;
+    justify-content: center;
+    max-width: 860px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -310px;
+    padding: 45px 0;
+    .one-third {
+        border-right: 1px solid $light;
+        padding: 0 30px;
+        text-align: center;
+        h2 {
+            color: $gold;
+            font-size: 26px;
+        }
+        &:last-of-type {
+            border-right: none;
+        }
+    }    
+}
+
+.home-blog {
+    h2 {
+        text-align: center;
+        @include england;
+        margin-bottom: 45px;
+    }
+    .default-btn {
+        display: block;
+        width: 110px;
+        margin: 45px auto 0;
+    }
+}
+
+.home-instagram {
+    background: $med;
+    a {
+        text-decoration: none;
+        @include england;
+        text-transform: lowercase;
+//        font-size: 28px;
+        &:hover {
+            text-decoration: none;
+            color: $gold;
+        }
+    }
+    h2 {
+        text-align: center;
+    }
 }
