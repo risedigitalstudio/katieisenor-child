@@ -48,7 +48,7 @@ get_header();
 <section class="home-three-points">
     <div class="three-inner">
         <div class="one-third">
-            <h2>Out of province buyers</h2>
+            <h2>Local buyers &amp; investors</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio doloremque quae, et praesentium facere quisquam libero qui deleniti, rem itaque.</p>
         </div>
         <div class="one-third">

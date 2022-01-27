@@ -50,3 +50,24 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     height: 100%;
 }
+
+.page-hero {
+    background-image: url(../img/halifax-bg.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    position: relative;
+    h1 {
+        padding: 220px 0 100px; 
+        color: $light;
+        font-size: 60px;
+        text-align: center;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.5);
+    }
+}

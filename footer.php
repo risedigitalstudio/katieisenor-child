@@ -47,7 +47,7 @@ defined( 'ABSPATH' ) || exit;
                         <?php wp_nav_menu(); ?>
                     </div>
                     <div class="col-md-5">
-                        <p class="copy">&copy; Copyright 2020. Website by <a href="https://risedigitalstudio.ca" class="rds" target="_blank">Rise Digital Studio</a></p>
+                        <p class="copy">&copy; Copyright <span id="yr"></span>. Website by <a href="https://risedigitalstudio.ca" class="rds" target="_blank">Rise Digital Studio</a></p>
                     </div>
                 </div>
             </div>
@@ -59,6 +59,14 @@ defined( 'ABSPATH' ) || exit;
 </div><!-- #page we need this extra closing tag here -->
 
 <?php wp_footer(); ?>
+
+<script>
+
+    var d = new Date();
+    var y = d.getFullYear();
+    document.getElementById('yr').innerHTML = y;
+    
+</script>
 
 </body>
 

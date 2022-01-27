@@ -1,0 +1,34 @@
+.about-photo-wrap {
+    width: 100%;
+    .left-side {
+        margin-top: 35px;
+        width: 50%;
+        float: left;
+    }
+    .right-side {
+        width: 50%;
+        float: right;
+    }
+    img {
+        padding: 15px;
+    }
+}
+
+.about-info-wrap {
+    margin-left: 55px;
+}
+
+.slick-slide {
+    &:focus {
+        outline: none;
+    }
+}
+.testimonials {
+    background: $med;
+}
+.testimonial-slider {
+    text-align: left;
+}
+.testimonial-name {
+    margin-top: 15px;
+}
