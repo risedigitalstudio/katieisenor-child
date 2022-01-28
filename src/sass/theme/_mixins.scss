@@ -19,8 +19,10 @@
 @mixin england {
     font-family: 'England', sans-serif;
     font-size: 4rem;
-    margin-top: -20px;
+    margin-top: -15px;
     margin-left: -10px;
+    text-transform: none;
+    display: block;
 }
 
 .england {

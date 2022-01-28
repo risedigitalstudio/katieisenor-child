@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) || exit;
 <footer class="main-footer sec-pad">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 footer-cols" data-aos="fade-in">
+            <div class="col-md-12 footer-cols">
                 <div class="footer-col first">
                     <img src="<?php echo get_stylesheet_directory_uri();?>/img/katie-isenor-logo-white.png" class="ki-footer-logo">
                 </div>
@@ -42,7 +42,7 @@ defined( 'ABSPATH' ) || exit;
         </div>
         <div class="row">
             <div class="col-md-12">
-                <div class="row footer-bottom-wrap" data-aos="fade-in">
+                <div class="row footer-bottom-wrap">
                     <div class="col-md-7">
                         <?php wp_nav_menu(); ?>
                     </div>

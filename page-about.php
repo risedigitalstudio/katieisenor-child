@@ -46,7 +46,7 @@ get_header();
             </div>
             <div class="col-md-7">
                 <div class="flex-height about-info-wrap">
-                    <h2>A career inspired by living</h2>
+                    <h2 class="cap-light">A career inspired <br><span class="england">by living</span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, veniam, ipsum. Voluptatibus enim beatae ut dignissimos nobis a ad, quae sit harum quibusdam et consequatur fugiat tempore consequuntur aspernatur impedit voluptas aperiam dolores. Beatae ullam enim impedit, repellat laudantium libero.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quam dolores laboriosam magnam voluptatibus ab esse porro sed laudantium id sapiente dolorum, alias vero excepturi dignissimos quasi explicabo nemo vitae omnis odit numquam cum, odio voluptatem recusandae. Maxime odio architecto necessitatibus, illum pariatur suscipit assumenda velit consequuntur quasi qui laboriosam?</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore similique autem id doloribus ad consectetur blanditiis labore debitis temporibus porro.</p>
@@ -110,16 +110,7 @@ get_header();
     </div>
 </section>
 
-
-<section class="cta sec-pad">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                CTA GOES HERE
-            </div>
-        </div>
-    </div>
-</section>
+<?php get_template_part( 'global-templates/cta' ); ?>
 
 <?php
 get_footer();

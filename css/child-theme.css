@@ -15036,8 +15036,10 @@ h1, h2, h3, h4, h5, h6 {
 .england {
   font-family: "England", sans-serif;
   font-size: 4rem;
-  margin-top: -20px;
+  margin-top: -15px;
   margin-left: -10px;
+  text-transform: none;
+  display: block;
 }
 
 .default-btn {
@@ -15074,7 +15076,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .current_page_item a {
-  border-bottom: 2px solid #cea293;
+  border-bottom: 1.5px solid #cea293;
 }
 
 #main-nav .navbar-brand img {
@@ -15096,7 +15098,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #efede1;
 }
 .navbar-expand-md .navbar-nav .nav-link:hover {
-  border-bottom: 2px solid #cea293;
+  border-bottom: 1.5px solid #cea293;
+}
+
+.tel {
+  font-weight: 500;
+}
+.tel .nav-link {
+  color: #efede1 !important;
+  font-size: 18px;
+  position: relative;
+  top: -1px;
+}
+
+.navbar-expand-md .navbar-nav .tel .nav-link:hover {
+  border-bottom: none;
 }
 
 .solid {
@@ -15107,6 +15123,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .solid .navbar-expand-md .navbar-nav .nav-link {
   color: #000;
+}
+.solid .tel .nav-link {
+  color: #a57a26 !important;
 }
 
 .home-hero {
@@ -15151,9 +15170,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 400px;
   margin-left: 75px;
 }
-.home-intro-wrap h2 {
-  color: #a57a26;
-}
 
 .home-three-points {
   background-image: url(../img/home-kitchen.jpg);
@@ -15191,8 +15207,10 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-family: "England", sans-serif;
   font-size: 4rem;
-  margin-top: -20px;
+  margin-top: -15px;
   margin-left: -10px;
+  text-transform: none;
+  display: block;
   margin-bottom: 45px;
 }
 .home-blog .default-btn {
@@ -15208,8 +15226,10 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   font-family: "England", sans-serif;
   font-size: 4rem;
-  margin-top: -20px;
+  margin-top: -15px;
   margin-left: -10px;
+  text-transform: none;
+  display: block;
   text-transform: lowercase;
 }
 .home-instagram a:hover {
@@ -15299,6 +15319,102 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 15px;
 }
 
+.buy-intro-inner {
+  margin-left: 55px;
+}
+
+.buy-rcmp {
+  background: #e4e0d4;
+  text-align: center;
+}
+
+.sell-team {
+  background: #e4e0d4;
+}
+
+.sell-staging {
+  background: #cea293;
+  text-align: center;
+}
+.sell-staging img {
+  padding: 15px 0;
+}
+
+.faq .accordion-container {
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+.faq .accordion-container h2 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-top: 1px solid #ddd;
+}
+.faq .set {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.faq .set .content {
+  float: left;
+  width: 90%;
+}
+.faq .set .set-a {
+  float: left;
+  width: 100%;
+  display: block;
+  padding: 16px 0;
+  text-decoration: none;
+  border-top: 1px solid #e0e0e0;
+  transition: all 0.2s linear;
+  font-size: 19px;
+}
+.faq .set .set-a .title {
+  width: 85%;
+  float: left;
+}
+.faq .set .set-a i {
+  float: right;
+  position: relative;
+  right: 5px;
+  width: 5%;
+}
+.faq .set .set-a.active {
+  color: #a57a26;
+}
+.faq .content {
+  display: none;
+}
+.faq .content p {
+  padding: 8px 0 25px 0;
+  margin: 0 45px 0 0;
+  font-size: 17px;
+}
+.faq .content p a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .faq-hero {
+    background-position: center right !important;
+  }
+
+  .faq .bigbold {
+    font-size: 17px;
+  }
+
+  .faq .content p {
+    margin: 0;
+  }
+
+  .faq .set .set-a {
+    font-size: 18px;
+  }
+}
 .arrows-home-blog {
   float: left;
   width: 100%;
@@ -15328,6 +15444,134 @@ h1, h2, h3, h4, h5, h6 {
 .precon-arrow-wrap {
   width: 100%;
   padding: 45px 15px;
+}
+
+.single-blog-post img {
+  margin-bottom: 15px;
+}
+
+.wp-block-search__button {
+  background-color: none;
+  padding: 9px 18px;
+  display: inline-block;
+  color: #cea293;
+  transition: 0.2s all;
+  border: 2px solid #cea293;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  margin-top: 12px;
+  font-weight: 500;
+  background-color: #efede1;
+  margin-top: 0;
+}
+@media (max-width: 767px) {
+  .wp-block-search__button {
+    padding: 6px 13px;
+    font-size: 18px;
+  }
+}
+.wp-block-search__button:hover {
+  color: #efede1;
+  text-decoration: none;
+  background-color: #cea293;
+}
+
+.wp-block-search__label {
+  display: none;
+}
+
+.wp-block-search__inside-wrapper {
+  margin-bottom: 18px;
+}
+
+.cta {
+  background-image: url(../img/halifax-bg.jpg);
+  background-size: cover;
+  background-position: left center;
+  background-attachment: fixed;
+  position: relative;
+  color: #efede1;
+}
+.cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.cta .default-btn {
+  color: #efede1;
+  display: block;
+  border: 2px solid #efede1;
+  float: right;
+}
+.cta .default-btn:hover {
+  color: #a57a26;
+  text-decoration: none;
+  background-color: #efede1;
+}
+.cta h3 {
+  font-weight: 500;
+  font-size: 32px;
+}
+.cta p {
+  font-size: 24px;
+}
+
+.contact-info {
+  background-image: url(../img/home-kitchen.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.contact-info::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(356deg, rgba(0, 93, 160, 0) 40%, black 100%);
+  top: 0;
+}
+
+.contact-info {
+  padding-top: 250px;
+  padding-bottom: 180px;
+}
+
+.contact-info-inner {
+  display: flex;
+  background: #e4e0d4;
+  justify-content: space-between;
+  max-width: 860px;
+  margin: 0 auto;
+  position: relative;
+  padding: 45px 0;
+}
+.contact-info-inner .one-third {
+  border-right: 1px solid #efede1;
+  padding: 0 30px;
+  text-align: center;
+  width: 33%;
+}
+.contact-info-inner .one-third h2 {
+  color: #a57a26;
+  font-family: "England", sans-serif;
+  font-size: 4rem;
+  margin-top: -15px;
+  margin-left: -10px;
+  text-transform: none;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 46px;
+}
+.contact-info-inner .one-third:last-of-type {
+  border-right: none;
+}
+.contact-info-inner .one-third a:hover {
+  text-decoration: none;
 }
 
 .main-footer {

@@ -1,0 +1,19 @@
+.single-blog-post {
+    img {
+        margin-bottom: 15px;
+    }
+}
+
+.wp-block-search__button  {
+    @include default-btn;
+    background-color: $light;
+    margin-top: 0;
+}
+
+.wp-block-search__label {
+    display: none;
+}
+
+.wp-block-search__inside-wrapper  {
+    margin-bottom: 18px;
+}
