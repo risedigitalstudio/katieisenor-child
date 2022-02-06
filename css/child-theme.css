@@ -15174,10 +15174,10 @@ h1, h2, h3, h4, h5, h6 {
 .home-three-points {
   background-image: url(../img/home-kitchen.jpg);
   background-size: cover;
-  background-attachment: fixed;
   height: 520px;
   position: relative;
   margin-bottom: 220px;
+  background-position: center 620px;
 }
 
 .three-inner {
@@ -15324,8 +15324,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .buy-rcmp {
-  background: #e4e0d4;
+  background: #abbfb4;
   text-align: center;
+}
+.buy-rcmp .default-btn {
+  color: #efede1;
+  border-color: #efede1;
+}
+.buy-rcmp .default-btn:hover {
+  background: #efede1;
+  color: #abbfb4;
+}
+
+.buy-new-build {
+  background: #e4e0d4;
 }
 
 .sell-team {
@@ -15522,18 +15534,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-info {
-  background-image: url(../img/home-kitchen.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-}
-.contact-info::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(356deg, rgba(0, 93, 160, 0) 40%, black 100%);
-  top: 0;
+  background: #e4e0d4;
 }
 
 .contact-info {
@@ -15542,36 +15543,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-info-inner {
-  display: flex;
-  background: #e4e0d4;
-  justify-content: space-between;
-  max-width: 860px;
-  margin: 0 auto;
-  position: relative;
-  padding: 45px 0;
-}
-.contact-info-inner .one-third {
-  border-right: 1px solid #efede1;
-  padding: 0 30px;
-  text-align: center;
-  width: 33%;
-}
-.contact-info-inner .one-third h2 {
-  color: #a57a26;
-  font-family: "England", sans-serif;
-  font-size: 4rem;
-  margin-top: -15px;
-  margin-left: -10px;
-  text-transform: none;
-  display: block;
-  margin-bottom: 15px;
-  font-size: 46px;
-}
-.contact-info-inner .one-third:last-of-type {
-  border-right: none;
-}
-.contact-info-inner .one-third a:hover {
-  text-decoration: none;
+  margin-left: 35px;
 }
 
 .main-footer {

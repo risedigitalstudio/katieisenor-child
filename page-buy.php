@@ -17,7 +17,6 @@ get_header();
 
 ?>
 
-
 <section class="page-hero buy-hero">
     <div class="container">
         <div class="row">
@@ -52,6 +51,24 @@ get_header();
                 <h2>Are you an RCMP family?</h2>
                 <p>House hunting trips.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolor, eos! Laboriosam illum harum aperiam repellat enim asperiores et adipisci neque quo, tempora iusto temporibus, voluptatem ipsum minus. Perferendis corporis eveniet molestiae sit mollitia vel.</p>
                 <p><a href="mailto:katieisenor@royallepage.ca" class="default-btn">Get in Touch</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="buy-new-build sec-pad">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="flex-height buy-intro-inner">
+                    <h2 class="cap-light">Build your <br><span class="england">dream home</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quis dolores placeat iusto libero non at voluptate, provident eveniet iure eaque vel aliquid tempore error reiciendis maiores quos, vitae incidunt.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam harum minima at accusantium repellendus atque officiis illum, iste sequi! Explicabo odit vel excepturi deleniti perferendis ratione corporis quisquam, quas eos, temporibus doloribus dolor autem error! Nobis officia labore, ea cum!</p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <img src="<?php echo get_stylesheet_directory_uri();?>/img/edgett-exterior.jpg">
             </div>
         </div>
     </div>

@@ -14,8 +14,8 @@ get_header();
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <div class="home-hero-inner">
-                    <h1 data-aos="fade-up">Your trusted Halifax <br>Real Estate Professional</h1>
-                    <h3 data-aos="fade-up">By your side every step of process.</h3>
+                    <h1 data-aos="fade-up">Coastal Living Awaits You</h1>
+                    <h3 data-aos="fade-up">Acclaimed real estate services in the <br class="desktop">Halifax Regional Municipality and surrounding areas</h3>
                     <div class="home-hero-btn-wrap" data-aos="fade-up" data-aos-delay="300">
                         <a href="<?php echo site_url();?>/buy" class="default-btn">Buy</a>
                         <a href="<?php echo site_url();?>/sell" class="default-btn">Sell</a>
@@ -37,8 +37,8 @@ get_header();
                 <div class="flex-height home-intro-wrap">
                     <p class="cap-light">Hi, I'm</p>
                     <h2 class="england">Katie Isenor</h2>
-                    <p>Your story is unique. That’s why I am dedicated to understanding your lifestyle and making your goals my own so we can navigate through the process together. Whether you’re buying, selling, or investing, everyone deserves expert guidance before making such a large financial investment. Ready to find out how I can help you reach your real estate goals?</p>
-                    <p><a href="<?php echo site_url()?>/about" class="default-btn">Read More</a></p>
+                    <p>Moving our RCMP family to Halifax has been the best decision we’ve ever made. After being transferred around the country, we are proud to lay down our roots on the beautiful east coast. If you’re relocating your family to the charming HRM, searching for that dream oceanfront property or thinking about selling, you’ve come to the right place. Backed by my first-hand experience, an extensive career in property marketing, and an incredible team of real estate professionals, your dream coastal lifestyle begins here.</p>
+                    <p><a href="<?php echo site_url()?>/about" class="default-btn">Learn More</a></p>
                 </div>
             </div>
         </div>
@@ -48,16 +48,16 @@ get_header();
 <section class="home-three-points">
     <div class="three-inner">
         <div class="one-third">
-            <h2>Local buyers &amp; investors</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio doloremque quae, et praesentium facere quisquam libero qui deleniti, rem itaque.</p>
+            <h2>Buying &amp; Selling in the HRM</h2>
+            <p>Whether you’re ready to sell in this unprecedented market or searching for exclusive listings in and around the HRM, I am dedicated to making your experience as smooth as possible.</p>
         </div>
         <div class="one-third">
-            <h2>RCMP Transfer Professional</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio doloremque quae, et praesentium facere quisquam libero qui deleniti, rem itaque.</p>
+            <h2>RCMP Relocation Expert</h2>
+            <p>Transferring can be a difficult process! With my first-hand experience and familiarity with the RCMP relocation process, I look forward to helping your family transfer seamlessly to the east coast.</p>
         </div>
         <div class="one-third">
-            <h2>Backed by a team of pro's</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio doloremque quae, et praesentium facere quisquam libero qui deleniti, rem itaque.</p>
+            <h2>Out-of-Province Buyers</h2>
+            <p>Coastal living is closer than you think. If you’re interested in making the long-distance move to Halifax, my personal relocation experience and local expertise will offer you a unique perspective.</p>
         </div>
     </div>
 </section>

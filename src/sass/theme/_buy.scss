@@ -5,6 +5,18 @@
 }
 
 .buy-rcmp {
-    background: $med;
+    background: $green;
     text-align: center;
+    .default-btn {
+        color: $light;
+        border-color: $light;
+        &:hover {
+            background: $light;
+            color: $green;
+        }
+    }
+}
+
+.buy-new-build {
+    background: $med;
 }

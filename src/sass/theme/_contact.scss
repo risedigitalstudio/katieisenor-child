@@ -1,16 +1,5 @@
 .contact-info {
-    background-image: url(../img/home-kitchen.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    &::before {
-        content: '';
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background: linear-gradient(356deg, rgba(0,93,160,0) 40%, rgba(0,0,0,1) 100%);
-        top: 0;
-    }
+    background: $med;
 }
 
 .contact-info {
@@ -19,31 +8,5 @@
 }
 
 .contact-info-inner {
-    display: flex;
-    background: $med;
-    justify-content: space-between;
-    max-width: 860px;
-    margin: 0 auto;
-    position: relative;
-    padding: 45px 0;
-    .one-third {
-        border-right: 1px solid $light;
-        padding: 0 30px;
-        text-align: center;
-        width: 33%;
-        h2 {
-            color: $gold;
-            @include england;
-            margin-bottom: 15px;
-            font-size: 46px;
-        }
-        &:last-of-type {
-            border-right: none;
-        }
-        a {
-            &:hover {
-                text-decoration: none;
-            }
-        }
-    }   
+    margin-left: 35px;
 }
