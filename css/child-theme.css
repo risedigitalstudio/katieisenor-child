@@ -15068,7 +15068,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #cea293;
 }
 
-#wrapper-navbar {
+#wrapper-navbar, #wrapper-navbar-solid {
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -15125,6 +15125,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
 }
 .solid .tel .nav-link {
+  color: #a57a26 !important;
+}
+
+.solid-contact {
+  background: #e4e0d4;
+}
+.solid-contact #main-nav .navbar-brand img {
+  width: 90px;
+}
+.solid-contact .navbar-expand-md .navbar-nav .nav-link {
+  color: #000;
+}
+.solid-contact .tel .nav-link {
   color: #a57a26 !important;
 }
 

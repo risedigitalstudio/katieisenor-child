@@ -1,4 +1,4 @@
-#wrapper-navbar {
+#wrapper-navbar, #wrapper-navbar-solid {
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -54,6 +54,22 @@
 //solid
 
 .solid {
+    background: $med;
+    #main-nav .navbar-brand {
+        img {
+            width: 90px;
+        }
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        color: $dark;
+    }
+    .tel .nav-link {
+        color: $gold !important;
+    }
+}
+
+
+.solid-contact {
     background: $med;
     #main-nav .navbar-brand {
         img {

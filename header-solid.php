@@ -27,7 +27,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
-	<header id="wrapper-navbar">
+	<header id="wrapper-navbar-solid" class="solid-contact">
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
@@ -42,7 +42,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 
                 <!-- Your site title as branding in the menu -->
                 <a href="<?php echo site_url();?>" class="navbar-brand custom-logo-link">
-                    <img src="<?php echo get_stylesheet_directory_uri();?>/img/katie-isenor-logo-white.png">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/img/katie-isenor-logo.png">
                 </a>
                 <!-- end custom logo -->
 
